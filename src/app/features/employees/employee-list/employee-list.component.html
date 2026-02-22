@@ -1,0 +1,10 @@
+<h2>Employee List </h2>    
+
+<table>
+  <tr *ngFor="let emp of employees">
+    <td>{{ emp.name }}</td>
+    <td>{{ emp.email }}</td>
+    <td>{{ emp.department }}</td>
+    <td>{{ emp.salary }}</td>
+  </tr>
+</table>
